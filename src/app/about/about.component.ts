@@ -17,7 +17,8 @@ export class AboutComponent implements OnInit {
               private route: ActivatedRoute) { }
 
   ngOnInit(): void {
-    this.leaders = this.leaderService.getLeaders();
+    this.leaderService.getLeaders()
+    .subscribe(leaders => this.leaders = leaders);
   }
 
 }
