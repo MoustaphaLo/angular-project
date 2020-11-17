@@ -1,4 +1,5 @@
 export class FeedBack {
+    id: number;
     firstname: string;
     lastname: string;
     telnum: number;
