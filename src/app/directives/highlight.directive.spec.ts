@@ -1,3 +1,4 @@
+import { ElementRef, Renderer2 } from '@angular/core';
 import { HighlightDirective } from './highlight.directive';
 
 describe('HighlightDirective', () => {
